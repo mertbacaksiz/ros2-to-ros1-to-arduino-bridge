@@ -1,0 +1,18 @@
+
+< This
+> It will be replaced with
+
+
+<     #include <cstring>   
+---
+>     #include <string.h>   
+
+
+<     std::memcpy(&val, &f, sizeof(val));
+---
+>     memcpy(&val, &f, sizeof(val));
+
+
+<     std::memcpy(f, &val, sizeof(val));
+---
+>     memcpy(f, &val, sizeof(val));
