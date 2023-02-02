@@ -22,6 +22,15 @@ gedit ~/.bashrc
 export ROS_MASTER_URI=http://localhost:11311
 source /opt/ros/galactic/setup.bash
 ```
+For Arduino ros.h library error solution
+--------------
+* Inside the arduino ros.h library
+>     Replace            #include <cstring>                          with              #include <string.h>  
+---
+>     Replace            std::memcpy(&val, &f, sizeof(val));         with              memcpy(&val, &f, sizeof(val)); 
+---
+>     Replace            std::memcpy(f, &val, sizeof(val));          with              memcpy(f, &val, sizeof(val));
+
 Run
 --------------
 * Firs Terminal
