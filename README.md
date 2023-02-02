@@ -1,5 +1,5 @@
 # Installing ros2-to-ros1-to-arduino-bridge 
-* Tested on ros2-galactic and ros1-noetic
+* Tested on for Arduino Mega ros2-galactic and ros1-noetic 
 
 Building Bridge
 --------------
