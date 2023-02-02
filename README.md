@@ -8,6 +8,10 @@ Installing Noetic
 * "source /opt/ros/noetic/setup.bash" should not be included in bashrc
 * You have to download galactic from here: (https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html)
 ```sh
+sudo apt install ros-galactic-ros1-bridge
+sudo apt install ros-galactic-performance-test-fixture
+sudo apt install ros-galactic-test-interface-files
+
 mkdir -p ~/ros2to1_bridge/src
 cd ros2to1_bridge/src/
 
@@ -15,7 +19,6 @@ git clone https://github.com/mertbacaksiz/ros2-to-ros1-to-arduino-bridge.git
 cd ..
 colcon build
 
-sudo apt install ros-galactic-ros1-bridge
 
 sudo apt-get install ros-noetic-rosserial-arduino
 sudo apt-get install ros-noetic-rosserial
