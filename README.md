@@ -33,7 +33,7 @@ For Arduino ros.h library error solution
 
 Run
 --------------
-* Firs Terminal
+* First Terminal
 ```sh
 source /opt/ros/noetic/setup.bash
 roscore
