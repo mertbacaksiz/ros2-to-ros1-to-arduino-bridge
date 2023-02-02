@@ -12,14 +12,6 @@ sudo apt install ros-galactic-ros1-bridge
 sudo apt install ros-galactic-performance-test-fixture
 sudo apt install ros-galactic-test-interface-files
 
-mkdir -p ~/ros2to1_bridge/src
-cd ros2to1_bridge/src/
-
-git clone https://github.com/mertbacaksiz/ros2-to-ros1-to-arduino-bridge.git
-cd ..
-colcon build
-
-
 sudo apt-get install ros-noetic-rosserial-arduino
 sudo apt-get install ros-noetic-rosserial
 ```
@@ -28,7 +20,6 @@ Adding required components on .bashrc
 ```sh
 gedit ~/.bashrc 
 export ROS_MASTER_URI=http://localhost:11311
-source ~/ros2to1_bridge/install/setup.bash
 source /opt/ros/galactic/setup.bash
 ```
 Run
