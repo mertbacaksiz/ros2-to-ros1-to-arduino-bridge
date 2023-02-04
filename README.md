@@ -40,6 +40,7 @@ roscore
 ```
 * Second Terminal
 ```sh
+source /opt/ros/noetic/setup.bash
 ros2 run ros1_bridge dynamic_bridge --bridge-all-2to1-topics
 ```
 * Third Terminal
